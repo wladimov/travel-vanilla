@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body class="font-Montserrat">
+    <nav></nav>
+    <div id="tab_bar"></div>
+    <section class="w-full h-screen">
+        <div id="home">
+            <div class="w-full h-3/4">
+                <div class="w-full h-full flex flex-col absolute space-y-80 py-4 items-center">
+                    <input class="outline-none p-3 rounded-full shadow-sm transition-300 focus-within:shadow-sm focus:ring-2 focus:w-11/12" placeholder="San Pancho">
+                    <button class="w-48 rounded-full text-lg text-principal shadow-sm font-semibold p-4 bg-white transition-all duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:translate-y-1 hover:scale-110 ">
+                        Explorar
+                    </button>
+                </div>
+                <div class="w-full h-full">
+                    <img src="./public/img/sanFrancisco.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="p-6" id="recomendados">
+            <p class="text-xl font-semibold text-principal" >Recomendados</p>
+            <div class="w-auto h-72 item-center mt-6 overflow-x-auto overscroll-c-contain flex space-x-6 overflow-y-hidden">
+                <div class="Card">
+                    <div class="w-full h-3/5 bg-norway bg-cover rounded-t-lg"></div>
+                    <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+                        <p class="text-white text-bold text-xl px-4 py-2 ">Norway</p>
+                        <p class="text-white text-md px-4">Beautifulll landscape</p>
+                    </div>
+                </div>
+                <div class="Card">
+                    <div class="w-full h-3/5 bg-new_york bg-cover rounded-t-lg"></div>
+                    <div class="w-full h-2/5 bg-white rounded-b-lg">
+                        <p class="text-tertiary text-bold text-xl px-4 py-2 ">New York</p>
+                        <p class="text-tertiary text-md px-4">The big Apple</p>
+                    </div>
+                </div>
+                <div class="Card">
+                    <div class="w-full h-3/5 bg-chicago bg-cover rounded-t-lg"></div>
+                    <div class="w-full h-2/5 bg-white rounded-b-lg">
+                        <p class="text-tertiary text-bold text-xl px-4 py-2 ">Chicago</p>
+                        <p class="text-tertiary text-md px-4">Chicago</p>
+                    </div>
+                </div>
+                <div class="Card">
+                    <div class="w-full h-3/5 bg-europe bg-cover rounded-t-lg"></div>
+                    <div class="w-full h-2/5 bg-white rounded-b-lg">
+                        <p class="text-tertiary text-bold text-xl px-4 py-2 ">Europe</p>
+                        <p class="text-tertiary text-md px-4">The big Apple</p>
+                    </div>
+                </div>
+                <div class="Card">
+                    <div class="w-full h-3/5 bg-iceland bg-cover rounded-t-lg"></div>
+                    <div class="w-full h-2/5 bg-white rounded-b-lg">
+                        <p class="text-tertiary text-bold text-xl px-4 py-2 ">Ice Land</p>
+                        <p class="text-tertiary text-md px-4">The big Apple</p>
+                    </div>
+                </div>
+                <div class="Card">
+                    <div class="w-full h-3/5 bg-sydney bg-cover rounded-t-lg"></div>
+                    <div class="w-full h-2/5 bg-white rounded-b-lg">
+                        <p class="text-tertiary text-bold text-xl px-4 py-2 ">Sydney</p>
+                        <p class="text-tertiary text-md px-4">The big Apple</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="" id="rentas_destacadas">
+            <p class="text-3xl text-primary font-semibold pb-6">Rentas destacadas</p>
+            <div class=""></div>
+        </div>
+        <div id="faq"></div>
+    </section>
+    <footer></footer>
+</body>
+</html>
