@@ -4,13 +4,14 @@ module.exports = {
     './index.html',// Esta es la ruta importante
     './src/**/*.{html,js}'
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       backgroundImage: {
-        'sanFrancisco': "url('../img/sanFrancisco.jpg')",
-        'sanFranciscoDesktop': "url('../img/sanFranciscoDesktop.jpg')",
-        'yosemite': "url('../img/yosemite.jpg')",
-        'LA': "url('../img/LA.jpg')",
+        'sanFrancisco': "url('./img/sanFrancisco.jpg')",
+        'sanFranciscoDesktop': "url('./img/sanFranciscoDesktop.jpg')",
+        'yosemite': "url('./img/yosemite.jpg')",
+        'LA': "url('./img/LA.jpg')",
         'seattle': "url('./img/seattle.jpg')",
         'new_york': "url('./img/new_york.jpg')",
         'norway': "url('./img/norway.jpg')",
